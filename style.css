@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    text-align: Center;
+}
+#image1{
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+}
+div.table1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: greenyellow;
+}
+table{
+    text-align: left;
+    color: red;
+    border-collapse: collapse;
+    border: 3px solid black;
+
+}
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
