@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form Webpage</title>
+        <style>
+            input[type = text]{
+                background-color: blue;
+                color: red;
+            }
+            input[type= password]{
+                background-color: green;
+            }
+            .container > div{
+                display: flex;
+                flex-wrap: wrap;
+            }       
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name = "name" type ="text" placeholder = "Name">
+                <input name= "password" type = "password" placeholder = "Password" >
+            </div>
+            <div>
+                Favorite color?
+                <input name = "color" type ="radio" value = "red">Red
+                <input name = "color" type ="radio" value = "green">Green
+                <input name = "color" type ="radio" value = "blue">Blue
+                <input name = "color" type ="radio" value = "other">Other
+            </div>
+            <div>
+                <input name = "country" list = "countries" placeholder = "Country">
+                <datalist id = "countries">
+                    <option value = "Viet Nam">
+                    <option value = "Laos">
+                    <option value = "Cambodia">
+                    <option value = "ThaiLand">
+            </div>
+        </form>
+        <div class = "container">
+                <div>
+                    <div>
+                        This is first section
+                    </div>
+                    <div>
+                        This is second section
+                    </div>
+                    <div>
+                        This is third section
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        aaaaaaaaaa
+                    </div>
+                    <div>
+                        bbbbbbbbbb
+                    </div>
+                    <div>
+                        ccccccccc
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
